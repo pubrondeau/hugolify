@@ -1,1 +1,6 @@
-_merge: deep
+admin:
+  cms: sveltiacms # set Sveltia CMS as CMS for Hugolify
+  repo: Hugolify/hugolify-demo-sveltiacms # set your repository’s url
+  collections:
+    indexes:
+      enable: false # disable unused collection
